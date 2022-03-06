@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    response = load_image_text_first_copy("lst.jpeg", False)
+    response = load_image_text_first_copy("ss.PNG", True)
     return response
 
 
